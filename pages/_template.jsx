@@ -21,26 +21,23 @@ module.exports = React.createClass({
             marginBottom: rhythm(1),
           }}
           style={{
-            background: '#252525'
+            background: '#ff7f0a',
+            height: '160px'
           }}
         >
-          <Container
-            style={{
-              maxWidth: 960,
-              paddingTop: 0,
-              padding: `${rhythm(1)} ${rhythm(3/4)}`,
-            }}
-          >
+          <div style={{display:"flex", alignItems:"center", padding:"30px"}}>
+            <img style={{maxWidth:"100px", maxHeight:"100px", borderRadius:"50%", margin:"0", marginRight:"30px"}} src="./CampChef.jpg"></img>
             <Link
               to={prefixLink('/')}
               style={{
                 color: 'white',
                 textDecoration: 'none',
+                fontSize: '45px'
               }}
             >
               Miguel Corona
             </Link>
-          </Container>
+          </div>
         </Headroom>
         <Container
           style={{
