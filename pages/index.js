@@ -15,9 +15,24 @@ export default class Index extends React.Component {
             {"name": "keywords", "content": "sample, something"},
           ]}
         />
-        <h1>
-          Hello World!
-        </h1>
+        <h3>Top 5</h3>
+        <ol type="1">
+          <li>Coffee</li>
+          <li>Tea</li>
+          <li>Milk</li>
+          <li>Milk</li>
+          <li>Milk</li>
+        </ol>
+        <h3>Bottom 5</h3>
+        <ol type="1">
+          <li>Coffee</li>
+          <li>Tea</li>
+          <li>Milk</li>
+          <li>Milk</li>
+          <li>Milk</li>
+        </ol>
+
+
         <p>Welcome to your new clean Gatsby site</p>
       </div>
     )
