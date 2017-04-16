@@ -38,7 +38,7 @@ module.exports = React.createClass({
                 textDecoration: 'none',
               }}
             >
-              Your Brand!
+              Miguel Corona
             </Link>
           </Container>
         </Headroom>
