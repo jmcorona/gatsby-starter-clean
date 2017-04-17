@@ -25,18 +25,17 @@ module.exports = React.createClass({
             height: '160px'
           }}
         >
-          <div style={{display:"flex", alignItems:"center", padding:"30px"}}>
-            <img style={{maxWidth:"100px", maxHeight:"100px", borderRadius:"50%", margin:"0", marginRight:"30px"}} src="./CampChef.jpg"></img>
-            <Link
-              to={prefixLink('/')}
-              style={{
-                color: 'white',
-                textDecoration: 'none',
-                fontSize: '45px'
-              }}
-            >
+          <div className="container">
+            <img src="./CampChef.jpg" className="profilePic"/>
+            <div class="nameAndLink">
+            <h1 className="myName">
               Miguel Corona
-            </Link>
+            </h1>
+
+            <a href="https://github.com/jmcorona" className="link">
+              github.com/jmcorona
+            </a>
+            </div>
           </div>
         </Headroom>
         <Container

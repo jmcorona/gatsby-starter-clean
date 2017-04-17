@@ -32,7 +32,7 @@ export default class Index extends React.Component {
           <li>Dig through server logs to troubleshoot a customer's website behavior</li>
         </ol>
         <h4>What is your favorite thing about providing technical support?</h4>
-        <p>My favorite thing about providing technical support is helping people learn how to achieve their desired results while also learning new skills and tricks myself.</p>
+        <p style={{paddingLeft:"30px"}}>My favorite thing about providing technical support is helping people learn how to achieve their desired results while also learning new skills and tricks myself.</p>
         <h4>What did you think of our service during the time you used it?</h4>
         <p>I found it super easy to generate a site and get started with Netlify. I was intimidated by the requirements, but after seeing how easy it was to generate and publish a static site, I felt more comfortable. Deploys are also incredibly simple and efficient.</p>
         <h4>Tell about how you made your site and why you chose the tools you did.  Briefly explain a challenge you experienced in setting up this site and how you solved it.</h4>
@@ -40,6 +40,13 @@ export default class Index extends React.Component {
         <p>I had trouble with dependency management getting my local server running. I didn't have node installed, and the Gatsby documentation assumed it was already installed. I couldn't run the <code style={{color:'#ff0000'}}>npm run develop</code> command without node installed. And even after node was installed, it wouldn't run because Gatsby was installed. Using the command <code style={{color:'#ff0000'}}>npm install</code> I got the dependencies Gatsby needed and was finally able to run <code style={{color:'#ff0000'}}>npm run develop</code></p>
         <h4>Could you give us a suggestion to improve this test or the job posting?</h4>
         <p>I think the connotation of "least favorite activities" seems a bit harsh. It was difficult for me to choose five because it felt like I was saying I do not want to do those. All of the activities listed sounded engaging and interesting, but of course everyone has their preferences. A better format may be to rank them in order of preference overall, to avoid the negative connotation.</p>
+        <h4>Provide a link to documentation for a technical/developer-focused product, that you think are well done, and briefly explain why you think they are well done.</h4>
+        <p>I think the documentation for <a href="http://www.seleniumhq.org/docs/">Selenium</a> is well done because it is well organized and starts from the basics of setup and goes on to give more than just technical advice, including the history and when or when not to use Selenium.</p>
+        <h4>Why do you think SSL/HTTPS is important?</h4>
+        <p>As detailed <a href="https://www.sslshopper.com/why-ssl-the-purpose-of-using-ssl-certificates.html">here</a>, SSL/HTTPS is important because it encrypts sensitive information, provides authentication, and is required for PCI compliance. These are all things we test for at my current job and have to make sure that we are protecting both our users and ourselves. Also, I know that Google returns search results with https higher than those without, so it has SEO value as well.</p>
+        <h4>Explain, in a couple of paragraphs, what you think 2 major challenges around DNS configuration are for less-technical internet end-users</h4>
+
+        <h4>A customer writes in saying their “site won’t build”.  Compose your best short (2-paragraph) customer-facing answer without any additional data, that could be useful in the generic case but would also lead to a customer providing a more actionable response.</h4>
       </div>
     )
   }
