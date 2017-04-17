@@ -48,6 +48,12 @@ export default class Index extends React.Component {
         <p>One major challenge around DNS configuration for less-technical internet end-users is just understanding what the Domain Name System does, and why it's important. To use the explanation given <a href="https://www.digitalocean.com/community/tutorials/an-introduction-to-dns-terminology-components-and-concepts">here</a>, the DNS is the networking system in place that allows us to resolve human-friendly names to unique addresses. So when a user enters a website name, the user's ISP uses the DNS to translate the domain name into the IP address, and directs the internet connection to the correct website</p>
         <p>Another major challenge is understanding the importance of and how to use CNAME records. As detailed in this <a href="https://www.netlify.com/blog/2016/01/12/this-weekends-ddos-attack-and-whats-in-a-cname/">post</a>, CNAME records can protect your site from malicious attacks. While it may be trendy to drop the <code style={{color:'#ff0000'}}>www</code> at the beginning of a domain name, it is not prudent to do so, and a properly configured CNAME can allow users to access the site from both the domain name without the <code style={{color:'#ff0000'}}>www</code> label.</p>
         <h4>A customer writes in saying their “site won’t build”.  Compose your best short (2-paragraph) customer-facing answer without any additional data, that could be useful in the generic case but would also lead to a customer providing a more actionable response.</h4>
+        <p><i>Dear customer, thank you for contacting us and for using Netlify. In order to properly diagnose the issues you are having, could you please provide me with the following additional information: </i> </p>
+        <p>-What framework your site is written in.</p> 
+        <p>-What version of the framework you are using</p>
+        <p>-Any error messages received from the build process</p>
+        <p>-The url of your netlify site</p>
+        <p><i>Given this info, I should be able to further assist you in getting your site built and deployed. Of course, if you'd like to take a shot at troubleshooting yourself, we have some tips and tricks <a href="https://www.netlify.com/blog/2016/10/18/how-our-build-bots-build-sites/">on our blog</a>.</i></p>
       </div>
     )
   }
