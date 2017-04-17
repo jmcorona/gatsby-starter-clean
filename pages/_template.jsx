@@ -15,13 +15,13 @@ module.exports = React.createClass({
   },
   render () {
     return (
-      <div>
+      <div style={{backgroundColor:'#ffe6b5', color:'#605e5a'}}>
         <Headroom
           wrapperStyle={{
             marginBottom: rhythm(1),
           }}
           style={{
-            background: '#ff7f0a',
+            background: '#BF5700',
             height: '160px'
           }}
         >
