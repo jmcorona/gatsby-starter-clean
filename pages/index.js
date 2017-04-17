@@ -36,8 +36,10 @@ export default class Index extends React.Component {
         <h4>What did you think of our service during the time you used it?</h4>
         <p>I found it super easy to generate a site and get started with Netlify. I was intimidated by the requirements, but after seeing how easy it was to generate and publish a static site, I felt more comfortable. Deploys are also incredibly simple and efficient.</p>
         <h4>Tell about how you made your site and why you chose the tools you did.  Briefly explain a challenge you experienced in setting up this site and how you solved it.</h4>
-        <p>I made my site using the Gatsby site generator from staticgen.com because it used React and that's what is used at my current job. I have heard devs say many good things about it and I also am more familiar with JavaScript than any of the other languages in the options given. I also knew there would be an abundance of resources available if I got stuck, which I did. I had trouble with dependency management in getting my local server running. I didn't have node installed, and the Gatsby documentation assumed it was already installed. Also, using npm to install Gatsby took a few tries.</p>
-        
+        <p>I made my site using the Gatsby site generator from staticgen.com because it used React, which we use at my current job. I have heard many devs sing the praises of React and knew there would be an abundance of resources available if I got stuck, which I did.</p> 
+        <p>I had trouble with dependency management getting my local server running. I didn't have node installed, and the Gatsby documentation assumed it was already installed. I couldn't run the <code style={{color:'#ff0000'}}>npm run develop</code> command without node installed. And even after node was installed, it wouldn't run because Gatsby was installed. Using the command <code style={{color:'#ff0000'}}>npm install</code> I got the dependencies Gatsby needed and was finally able to run <code style={{color:'#ff0000'}}>npm run develop</code></p>
+        <h4>Could you give us a suggestion to improve this test or the job posting?</h4>
+        <p>I think the connotation of "least favorite activities" seems a bit harsh. It was difficult for me to choose five because it felt like I was saying I do not want to do those. All of the activities listed sounded engaging and interesting, but of course everyone has their preferences. A better format may be to rank them in order of preference overall, to avoid the negative connotation.</p>
       </div>
     )
   }
